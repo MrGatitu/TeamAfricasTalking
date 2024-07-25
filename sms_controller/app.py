@@ -6,7 +6,7 @@ from env import config
 
 
 africastalking.initialize(
-    username='sandbox',
+    username= config.UserName,
     api_key= config.API_Key
 )
 
