@@ -2,7 +2,7 @@ import africastalking
 import os
 from flask import Flask, request
 import AuthCodeGenerator
-from env import config
+from config import config
 
 
 africastalking.initialize(
