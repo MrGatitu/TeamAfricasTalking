@@ -1,2 +1,0 @@
-API_Key = 'atsk_dec77e70915af371ad80b4f2323471474b1a40fcf2ca61ba2e7e720c63aae0fadaf38b99'
-UserName ='sandbox'
