@@ -12,5 +12,14 @@ class Service:
 
 service = Service()
 
-AuthCode = service.generate_otp()
-print(service.generate_otp())
+authCode = service.generate_otp()
+print(authCode)
+
+myCode = []
+if myCode:
+    myCode[0] = authCode
+else:
+    myCode.append(authCode) 
+print(myCode)  
+
+

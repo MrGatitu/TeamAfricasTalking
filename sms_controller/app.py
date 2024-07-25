@@ -15,7 +15,7 @@ sms = africastalking.SMS
 class send_sms:
     def send(self):
         recipients = ["+254114883285"]
-        message = "Hello your Authentication Code is " + AuthCodeGenerator.AuthCode 
+        message = "Hello your Authentication Code is " + AuthCodeGenerator.myCode[0]
         sender = "78980"
         try:
             response = sms.send(message, recipients, sender)
